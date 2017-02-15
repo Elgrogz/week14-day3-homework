@@ -1,7 +1,7 @@
 import React from 'react';
 // const peopleURL = "http://swapi.co/api/people/";
 
-class People extends React.Component{
+class Starships extends React.Component{
   constructor(props) {
     super(props);
     this.state = {people: []};
@@ -32,8 +32,8 @@ class People extends React.Component{
         console.log(characters),
         <div key={index}>
           <ul>{character.name}
-          <li>Height: {character.height}</li>
-          <li>Birth year: {character.birth_year}</li>
+          <li>{character.height}</li>
+          <li>{character.birth_year}</li>
           </ul>
         </div>
         )
@@ -48,4 +48,4 @@ class People extends React.Component{
   }
 }
 
-module.exports = People;
+module.exports = Starships;

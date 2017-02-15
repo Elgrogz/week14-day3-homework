@@ -15,6 +15,12 @@ class Main extends React.Component {
           <li>
             <Link to="/people">People</Link>
           </li>
+          <li>
+            <Link to="/planets">Planets</Link>
+          </li>
+          <li>
+            <Link to="/starships">Starships</Link>
+          </li>
         </ul>
         {this.props.children}
       </div>
